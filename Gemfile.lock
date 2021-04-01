@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    secrett11tto (0.1.0)
+    secrett11tto (0.1.1)
       activesupport
 
 GEM
