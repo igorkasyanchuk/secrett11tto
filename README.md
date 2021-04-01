@@ -6,13 +6,13 @@
 [<img src="https://github.com/igorkasyanchuk/secrett11tto/blob/main/docs/copy_paste.gif?raw=true"
 />](https://github.com/igorkasyanchuk/secrett11tto/blob/main/docs/copy_paste.gif?raw=true)
 
-If you need to protect text from copying as text on your site. Using HTML/CSS and Ruby method.
+Do you need to protect content on your web site from copying as text.
 
-This method is generating special CSS which is hidding text from the use (using position absolute).
+This gem uses HTML/CSS and Ruby method, it generates a random strings and special CSS which won't be visible but will be copied.
 
 User can see a normal text, but if he tries to copy/paste it from the page it will include garbage.
 
-Of course this gem not protecting from experienced users who can parse HTML using automated tools, but for 99% people this approach will work.
+Of course this gem does not protecting from the experienced developers who can parse HTML using automated tools, but for 99.9% people this approach will work.
 
 ## Usage
 
