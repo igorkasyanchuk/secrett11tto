@@ -1,0 +1,64 @@
+<h1>Copy/Paste Protection</h1>
+
+<hr>
+
+<table>
+  <tr>
+    <th>VISIBLE OUTPUT</th>
+    <th>SOURCE CODE</th>
+    <th width='33%'>PRODUCED HTML</th>
+  </tr>
+  <tr>
+    <td><h2><%= "John Smith".secretify %></h2></td>
+    <td><code>
+  <%= "\<\%\= \"John Smith\".secretify \%\>" %>
+</code></td>
+    <td><textarea cols='50' rows='20'><%= j "John Smith".secretify %></textarea></td>
+  </tr>
+  <tr>
+    <td><h2>SSN: <%= "778-544-20015".secretify %></h2></td>
+    <td><code>
+  <%= "<h2>SSN: \<\%\= \"778-544-20015\".secretify \%\></h2>" %>
+</code></td>
+    <td>see above example or views source..</td>
+  </tr>
+  <tr>
+    <td><h2>Japanese: <%= "こんにちは世界".secretify %></h2></td>
+    <td><code>
+  <%= "<h2>Japanese: \<\%\= \"こんにちは世界\".secretify \%\></h2>" %>
+</code></td>
+    <td>see above example or views source..</td>
+  </tr>
+  <tr>
+    <td><h3><%= "igor@email.com".secretify %></h3></td>
+    <td><code>
+  <%= "\<\%\= \"igor@email.com\".secretify \%\>" %>
+</code>
+</td>
+    <td>see above example or views source..</td>
+  </tr>
+  <tr>
+    <td><h3><%= "<script>alert(1)></script>".secretify %></h3></td>
+    <td><code>
+  <%= "\<\%\= \"<script>alert(1)></script>\".secretify \%\>" %>
+</code></td>
+    <td>see above example or views source..</td>
+  </tr>
+  <tr>
+    <td><p><%= "Hello this is a very long text which you can copy and paste and see that it's not readable. People can't use it. You cannot google this text. Its just doesn't work :)".secretify %></p></td>
+    <td><code>
+  <%= "\<\%\= \"Hello this is a very long text which you can copy and paste and see that it's not readable. People can't use it. You cannot google this text. Its just doesn't work :)\".secretify \%\>" %>
+</code>
+</td>
+    <td>see above example or views source..</td>
+  </tr>
+</table>
+
+
+<br>
+<br>
+
+<hr>
+
+<p>Paste here to see copied text:</p>
+<textarea rows="20" cols="120" placeholder="Paste here.." style="background: yellow"></textarea>
