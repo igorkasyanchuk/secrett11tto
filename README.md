@@ -3,6 +3,8 @@
 [![RailsJazz](https://github.com/igorkasyanchuk/rails_time_travel/blob/main/docs/my_other.svg?raw=true)](https://www.railsjazz.com)
 [![https://www.patreon.com/igorkasyanchuk](https://github.com/igorkasyanchuk/rails_time_travel/blob/main/docs/patron.svg?raw=true)](https://www.patreon.com/igorkasyanchuk)
 
+[<img src="https://github.com/igorkasyanchuk/secrett11tto/blob/main/docs/copy_paste.gif?raw=true"
+/>](https://github.com/igorkasyanchuk/secrett11tto/blob/main/docs/copy_paste.gif?raw=true)
 
 If you need to protect text from copying as text on your site. Using HTML/CSS and Ruby method.
 
