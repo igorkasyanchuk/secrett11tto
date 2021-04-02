@@ -23,7 +23,11 @@ Of course this gem does not protecting from the experienced developers who can p
 # or
 
 SSN: <%= "778-544-20015".secretify %>
+
 ```
+
+or just call `.secretify` on any string which you show on the page.
+
 
 ## Installation
 Add this line to your application's Gemfile:
