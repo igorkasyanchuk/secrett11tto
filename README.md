@@ -3,6 +3,7 @@
 [![RailsJazz](https://github.com/igorkasyanchuk/rails_time_travel/blob/main/docs/my_other.svg?raw=true)](https://www.railsjazz.com)
 [![https://www.patreon.com/igorkasyanchuk](https://github.com/igorkasyanchuk/rails_time_travel/blob/main/docs/patron.svg?raw=true)](https://www.patreon.com/igorkasyanchuk)
 
+Demo
 [<img src="https://github.com/igorkasyanchuk/secrett11tto/blob/main/docs/copy_paste.gif?raw=true"
 />](https://github.com/igorkasyanchuk/secrett11tto/blob/main/docs/copy_paste.gif?raw=true)
 
